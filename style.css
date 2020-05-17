@@ -1,0 +1,102 @@
+body {
+    background-image: url('https://res.cloudinary.com/teepublic/image/private/s--ojLxh0Ya--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_c8e0ec,e_outline:48/co_c8e0ec,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1520192836/production/designs/2424525_0.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+h1 {
+    text-align:center;
+    color:rgb(48, 131, 230);
+    font-family: Cooper;
+    font-size: 55px;
+}
+
+h2, h3 {
+    color:rgb(48, 131, 230);
+    font-family: Cooper;
+    font-size: 35px;
+}
+
+.Forever, .Accounts {
+    text-align:center;
+}
+
+p, ol, ul {
+    text-align:left;
+    color:black;
+    font-family: Verdana;
+    font-size: 18px;
+}
+
+ul {
+    text-align: left;
+    width: 40%;
+    position:relative;
+    left: 40%;
+    }
+
+.Members {
+    font-family: Verdana;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+ }
+
+#firstImage {
+    border: 15px dotted rgb(8, 30, 71);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+#secondImage {
+    border: 15px dotted purple;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Other {
+    text-align:center;
+    color:rgb(48, 131, 230);
+    font-family: Cooper;
+    font-size: 35px;
+}
+
+#MoreSongs {
+    font-family: Verdana;
+    border-collapse: collapse;
+    width: 35%;
+}
+
+table.center {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+#MoreSongs td, #MoreSongs th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#MoreSongs td {
+    font-weight: bold;
+}
+
+#MoreSongs tr:nth-child(even) {background-color: #f2f2f2;} 
+#MoreSongs tr:nth-child(odd) {background-color: #adc2db;}
+
+#MoreSongs tr:hover {background-color: rgb(172, 144, 189);}
+
+#MoreSongs th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: purple;
+    color:  white;
+}
